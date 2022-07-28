@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<!-- Created By CodingNepal - www.codingnepalweb.com -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz App</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAweome CDN Link for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <!-- start Quiz button -->
+    <div class="start_btn"><button>Bắt đầu</button></div>
+
+    <!-- Info Box -->
+    <div class="info_box">
+        <div class="info-title"><span>Some Rules of this Quiz</span></div>
+        <div class="info-list">
+            <div class="info">1. Bạn có 120s để trả lời cho mỗi câu hỏi</div>
+            <div class="info">2. Bạn không thể chọn bất kỳ đáp án nào khi hết thời gian</div>
+            <div class="info">3. Kết quả sẽ được đánh giá dựa trên câu trả lời của bạn.</div>
+            <div class="info">4. Khi đang làm khảo sát thì bạn không thể thoát ra.</div>
+            <div class="info">5. Hãy chọn tiếp tục để làm bài khảo sát hoặc chọn thoát để trở về trang chủ.</div>
+        </div>
+        <div class="buttons">
+            <button class="quit">Thoát</button>
+            <button class="restart">Tiếp tục</button>
+        </div>
+    </div>
+
+    <!-- Quiz Box -->
+    <div class="quiz_box">
+        <header>
+            <div class="title">Câu hỏi bài khảo sát</div>
+            <div class="timer">
+                <div class="time_left_txt" id="time_status">Thời gian</div>
+                <div class="timer_sec" id="sec">120</div>
+            </div>
+            <div class="time_line" id="line"></div>
+        </header>
+        <section>
+            <h2 id="question">Question Text</h2>
+            <ul>
+              <li>
+                <input type="radio" name="answer" id="a" class="answer">
+                <label for="a" id="a_text">Answer</label>
+              </li>
+      
+              <li>
+                <input type="radio" name="answer" id="b" class="answer">
+                <label for="b" id="b_text">Answer</label>
+              </li>
+      
+              <li>
+                <input type="radio" name="answer" id="c" class="answer">
+                <label for="c" id="c_text">Answer</label>
+              </li>
+      
+              <li>
+                <input type="radio" name="answer" id="d" class="answer">
+                <label for="d" id="d_text">Answer</label>
+              </li>
+      
+            </ul>
+        </section>
+
+        <!-- footer of Quiz Box -->
+        <footer>
+            <div class="total_que">
+                <!-- Here I've inserted Question Count Number from JavaScript -->
+            </div>
+            <button class="next_btn" id="next_btn">Câu hỏi tiếp theo</button>
+        </footer>
+    </div>
+
+    <!-- Result Box -->
+    <div class="result_box">
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Bạn đã hoàn thành bài khảo sát!</div>
+        <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
+        </div>
+        <div class="buttons">
+            <button class="restart">Làm lại</button>
+            <button class="quit">Thoát</button>
+        </div>
+    </div>
+
+    <!-- Inside this JavaScript file I've inserted Questions and Options only -->
+    <script src="questions.js"></script>
+
+    <!-- Inside this JavaScript file I've coded all Quiz Codes -->
+    <script src="script5.js"></script>
+
+</body>
+</html>
+</html>
