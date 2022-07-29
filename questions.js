@@ -1,8 +1,74 @@
+
+
+// -------- Object ---------
+let ObjectList = [
+  {
+  question: "ĐỐI TƯỢNG",
+  No: 1,
+  numb: 3,
+  options: [
+    "Giáo viên/ Giảng viên.",
+    "Học sinh.",
+    "Phụ huynh."
+  ]
+}];
+
+
+// -------- Trường ---------
+let SchooList = [
+  {
+  question: "TRƯỜNG",
+  No: 2,
+  numb: 3,
+  options: [
+    "Tiểu học.",
+    "Trung học cơ sở.",
+    "Trung học phổ thông."
+  ]
+}];
+
+// Lớp
+
+let classList = [
+  {
+  question: "LỚP",
+  numb: 3,
+  No: 3,
+  options: [
+    "Lớp 10.",
+    "Lớp 11.",
+    "Lớp 12."
+  ]
+},  {
+  question: "LỚP",
+  No: 3,
+  numb: 5,
+  options: [
+    "Lớp 1.",
+    "Lớp 2.",
+    "Lớp 3.",
+    "Lớp 4.",
+    "Lớp 5."
+  ]
+},
+  {
+  question: "LỚP",
+  numb: 4,
+  No: 3,
+  options: [
+    "Lớp 6.",
+    "Lớp 7.",
+    "Lớp 8.",
+    "Lớp 9."
+  ]
+},];
+
+
 let questions1 = [
     {
     numb: 1,
     question: "Tôi biết cách sao chép (copy), dán (paste) và di chuyển tệp (VD: tài liệu, hình ảnh, video) giữa các thư mục, thiết bị hoặc trên đám mây (cloud)?",
-    answer: "Hyper Text Markup Language",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -13,7 +79,7 @@ let questions1 = [
     {
     numb: 2,
     question: "Tôi có thể xác định và cài đặt phần mềm (VD: tìm kiếm phần mềm, tải phần mềm, cài đặt phần mềm, mở/tắt phần mềm)?",
-    answer: "Cascading Style Sheet",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -24,7 +90,7 @@ let questions1 = [
     {
     numb: 3,
     question: "Tôi biết cách làm sạch thùng rác?",
-    answer: "Hypertext Preprocessor",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -35,7 +101,7 @@ let questions1 = [
     {
     numb: 4,
     question: "Tôi có thể so sánh thông tin từ nhiều nguồn trên mạng?",
-    answer: "Structured Query Language",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -46,7 +112,7 @@ let questions1 = [
     {
     numb: 5,
     question: "Tôi biết cách tạo và chỉnh sửa các tệp văn bản kỹ thuật số (ví dụ: Word, OpenDocument, Google Docs)?",
-    answer: "eXtensible Markup Language",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -57,7 +123,7 @@ let questions1 = [
   {
     numb: 6,
     question: "Tôi có thể lưu tài liệu ở 1 thư mục cụ thể?",
-    answer: "eXtensible Markup Language",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",
@@ -68,7 +134,7 @@ let questions1 = [
   {
     numb: 7,
     question: "Tôi có thể nén hoặc giải nén dữ liệu?",
-    answer: "eXtensible Markup Language",
+    answer: "Tôi có thể tự làm",
     options: [
       "Tôi không biết cách làm",
       "Tôi có thể làm nếu được giúp đỡ/hướng dẫn",

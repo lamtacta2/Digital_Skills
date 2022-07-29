@@ -6,7 +6,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Quiz App</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="stylez.css">
     <!-- FontAweome CDN Link for Icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
 </head>
@@ -15,12 +15,12 @@
     <!-- <div class="start_btn"><button>Bắt đầu</button></div> -->
 
     <!-- Thông tin -->
- <div class="demo_box" id="demo_box">
+ <div class="demo_box">
     <section class="section1">
         <header>
             <h1>THÔNG TIN</h1>
         </header>
-        <h5 id="questiona">ĐỐI TƯỢNG</h5>
+        <h2 id="questiona">ĐỐI TƯỢNG</h2>
         <ul>
           <li>
             <input type="radio" name="answer" id="a1" class="answer">
@@ -50,7 +50,6 @@
         </ul>
 
         <button class="a_btn" id="TT_btn">Tiếp tục</button>
-        <button class="a_btn" id="start_btn">Bắt đầu</button>
 
     </section>
 
@@ -119,9 +118,12 @@
 
     <!-- Result Box -->
     <div class="result_box">
-         <img src="./images/logo.png" style="width: 60%; height: 60%; padding-left: 12%;">
-        <div class="complete_text" style="padding-top: 10%;">Bạn đã hoàn thành bài khảo sát!</div>
+        <div class="icon">
+            <i class="fas fa-crown"></i>
+        </div>
+        <div class="complete_text">Bạn đã hoàn thành bài khảo sát!</div>
         <div class="score_text">
+            <!-- Here I've inserted Score Result from JavaScript -->
         </div>
         <div class="buttons">
             <button class="restart">Làm lại</button>
@@ -133,7 +135,7 @@
     <script src="questions.js"></script>
 
     <!-- Inside this JavaScript file I've coded all Quiz Codes -->
-    <script src="script3.js"></script>
+    <script src="scriptz.js"></script>
 
 </body>
 </html>
