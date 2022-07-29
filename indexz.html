@@ -20,34 +20,42 @@
         <header>
             <h1>THÔNG TIN</h1>
         </header>
-        <h2 id="questiona">ĐỐI TƯỢNG</h2>
-        <ul>
-          <li>
-            <input type="radio" name="answer" id="a1" class="answer">
-            <label for="a1" id="1_text">Answer</label>
-          </li>
-  
-          <li>
-            <input type="radio" name="answer" id="b1" class="answer">
-            <label for="b1" id="2_text">Answer</label>
-          </li>
-  
-          <li>
-            <input type="radio" name="answer" id="c1" class="answer">
-            <label for="c1" id="3_text">Answer</label>
-          </li>
-  
-          <li>
-            <input type="radio" name="answer" id="d1" class="answer">
-            <label for="d1" id="4_text">Answer</label>
-          </li>
 
-          <li>
-            <input type="radio" name="answer" id="e1" class="answer">
-            <label for="e1" id="5_text">Answer</label>
-          </li>
+        <form action="#">
+          <label for="lang">ĐỐI TƯỢNG</label>
+          <select name="object" id="object">
+            <option value="Giảng viên/ Giáo viên">Giảng viên/ Giáo viên</option>
+            <option value="Học sinh">Học sinh</option>
+            <option value="Phụ huynh">Phụ huynh</option>
+          </select>
+        </form>
 
-        </ul>
+        <form action="#">
+          <label for="lang">TRƯỜNG</label>
+          <select name="school" id="school">
+            <option value="Tiểu học">Tiểu học</option>
+            <option value="Trung học cơ sở">Trung học cơ sở</option>
+            <option value="Trung học phổ thông">Trung học phổ thông</option>
+          </select>
+        </form>
+
+        <form action="#">
+          <label for="lang">LỚP</label>
+          <select name="class" id="class">
+            <option value="Lớp 1">Lớp 1</option>
+            <option value="Lớp 2">Lớp 2</option>
+            <option value="Lớp 3">Lớp 3</option>
+            <option value="Lớp 4">Lớp 4</option>
+            <option value="Lớp 5">Lớp 5</option>
+            <option value="Lớp 6">Lớp 6</option>
+            <option value="Lớp 7">Lớp 7</option>
+            <option value="Lớp 8">Lớp 8</option>
+            <option value="Lớp 9">Lớp 9</option>
+            <option value="Lớp 10">Lớp 10</option>
+            <option value="Lớp 11">Lớp 11</option>
+            <option value="Lớp 12">Lớp 12</option>
+          </select>
+        </form>
 
         <button class="a_btn" id="TT_btn">Tiếp tục</button>
 
@@ -130,6 +138,8 @@
             <button class="quit">Thoát</button>
         </div>
     </div>
+
+
 
     <!-- Inside this JavaScript file I've inserted Questions and Options only -->
     <script src="questions.js"></script>
