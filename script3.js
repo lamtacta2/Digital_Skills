@@ -28,7 +28,6 @@ let widthValue = 0;
 let currentQuiz = 0
 let score = 0
 
-start_btn.style.visibility = 'hidden'
 
 // if startQuiz button clicked
 start_btn.onclick = ()=>{
