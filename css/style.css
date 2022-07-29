@@ -204,6 +204,8 @@ d{
   border: none; /* Remove borders */
   color: white; /* White text */
   background-color: rgb(70, 74, 69);
+  margin-left: 20px;
+  color: rgb(175, 175, 175);
 }
 
 
